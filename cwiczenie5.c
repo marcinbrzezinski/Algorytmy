@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int wieklata;
-int wieksekundy;
+double wieksekundy;
 int main()
 {
 
@@ -14,7 +14,7 @@ int main()
 	printf("Wiek nie moze być równy 0! \n");
 	else{ 
 	wieksekundy = wieklata * 3.156e7;
-	printf("Twoj wiek w sekundach wynosi: %i sekund\n", wieksekundy);
+	printf("Twoj wiek w sekundach wynosi: %f sekund\n", wieksekundy);
 	}
 	return 0;
 }
