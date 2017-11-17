@@ -1,11 +1,22 @@
 /*== SORTOWANIE BĄBELKOWE v1.0 == */
 /*== Autor: Marcin Brzeziński  == */ 
 #include <stdio.h>
- 
+
+
 int main()
 {
   int ciag[100], n, c, d, swap;
+
+	printf("\n\n");
+	printf("=================================\n");
+	printf("==  SORTOWANIE BĄBELKOWE v1.0  ==\n");
+        printf("=================================\n");
+	printf("Autor: mł. asp. Marcin Brzeziński\n");
+        printf("Wyższa Szkoła Policji w Szczytnie\n");
+	printf("---------------------------------\n\n\n");
  
+
+
   printf("Podaj ilosc elementow wybranego ciagu: \n");
   scanf("%d", &n);
  
